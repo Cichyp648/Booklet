@@ -36,5 +36,9 @@ def get_links():
         'name': 'Forum',
         'href': '/forum',
         'icon': 'fa-comment', #look for your icon here https://fontawesome.com/search?ic=free
+    }, {
+        'name': 'About project',# nazwa wyświetlana na stronie
+        'href': '/aboutproject',
+        'icon': 'fa-diagram-project', 
     }]
     
