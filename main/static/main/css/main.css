@@ -1,66 +1,115 @@
-/*body {*/
-/*    background: #2c2c2c;*/
-/*}*/
+aside {
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d
+}
 
-/*aside {*/
-/*    float: left;*/
-/*    background: #181818;*/
-/*    width: 20%;*/
-/*    padding: 2.5%;*/
-/*    height: 100vh;*/
-/*    color: #fff;*/
-/*    border-right: 5px solid #4d4d4d*/
-/*}*/
+aside img {
+    width: 80px;
+    float: left;
 
-/*aside img {*/
-/*    width: 80px;*/
-/*    float: left;*/
+}
 
-/*}*/
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
 
-/*aside .logo {*/
-/*    font-size: 40px;*/
-/*    margin-left: 10px;*/
-/*    font-weight: bold;*/
-/*    position: relative;*/
-/*    top: -5px;*/
-/*}*/
+aside h3 {*/
+    margin-top: 50px;
+    font-size: 28px;
+}
 
-/*aside h3 {*/
-/*    margin-top: 50px;*/
-/*    font-size: 28px;*/
-/*}*/
+aside ul {
+    list-style: none;
+}
 
-/*aside ul {*/
-/*    list-style: none;*/
-/*}*/
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
 
-/*aside ul li {*/
-/*    color: #fff;*/
-/*    display: block;*/
-/*    margin-top: 20px;*/
-/*    transition: transform .6s ease;*/
-/*}*/
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
 
-/*aside ul li:hover, aside ul a:hover {*/
-/*    color: #eb5959;*/
-/*    text-decoration: none;*/
-/*    transform: scale(1.05);*/
-/*}*/
+main .features {
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
 
-/*main .features {*/
-/*    float: left;*/
-/*    color: #fff;*/
-/*    margin-top: 100px;*/
-/*    text-align: center;*/
-/*    width: 75%;*/
-/*}*/
+main .features h1 {
+    font-size: 50px;
+}
 
-/*main .features h1 {*/
-/*    font-size: 50px;*/
-/*}*/
+main .features p {
+    max-width: 400px;
+    margin: 20px auto;
+}
 
-/*main .features p {*/
-/*    max-width: 400px;*/
-/*    margin: 20px auto;*/
-/*}*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);  /* auto = wielkość zależna od zawartości */
+    grid-template-rows: repeat(2, auto);
+    justify-content: space-around; /* 👈 rozrzuca kolumny na szerokość ekranu */
+    align-content: space-around;   /* 👈 rozrzuca rzędy na wysokość ekranu */
+    height: 90vh;
+    width: 85vw;
+  }
+  
+  figure {
+    margin: 0;
+    text-align: center;
+  }
+  
+  figure img {
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  figure img:hover {
+    transform: scale(1.05); /* 👈 delikatne powiększenie o 5% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  figcaption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 8px;
+    word-wrap: break-word; /* pozwala na zawijanie tekstu */
+    text-align: center; /* wyśrodkowuje podpis */
+    font-style: italic;
+  }
+  .image-container {
+    display: inline-block; /* pozwala na traktowanie figure jak elementu blokowego */
+    border: 2px solid #e6e6e6; /* ramka wokół zdjęcia i podpisu */
+    padding: 10px; /* odstęp między ramką a zawartością */
+    border-radius: 10px; /* opcjonalnie: zaokrąglenie narożników ramki */
+    max-width: 40%; /* zapewnia, że kontener nie wykracza poza dostępny obszar */
+    background-color: #e6e6e6; /* lekko szare tło */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s ease;
+  }
+  
+  figure a {
+    display: block; /* sprawia, że link obejmuje całe zdjęcie */
+    text-decoration: none; /* usuwa podkreślenie z linku */
+  }
