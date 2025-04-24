@@ -1,0 +1,31 @@
+{% extends 'main/layout/layout.html' %}
+
+{% block title%}Books{% endblock %}
+
+{% block content%}
+
+    <h1>Books</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Author</th>
+                <th scope="col">Genre</th>
+                <th scope="col">Year of publication</th>
+                <th scope="col">Link to the review</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for title in books %}
+            <tr>
+                {#Ze znakiem | można dodawać filtry do wyświetlanych w szablonie danych. Np.: variable|lower #}
+                <td>{{ books.title }}</td>
+                <td>{{ books.author }}</td>
+                <td>{{ books.genre }}</td>
+                <td>{{ books.year }}</td>
+                <td>{{ books.link }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
