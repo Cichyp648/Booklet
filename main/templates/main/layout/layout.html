@@ -15,12 +15,13 @@
 
     <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'forum/css/forum.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/structure.css' %}">
 </head>
 <body>
-<div class="d-flex flex-nowrap">
+<div id="main-container">
     {% include 'main/layout/sidebar.html' %}
     <main class="py-5">
-        <div class="container-sm" style="min-width: 997px">
+        <div id="content-container" style="min-width: 997px">
             <!-- Blok zawierający zawartość, definiowaną przez wyświetlany widok-->
             {% block content %}
             {% endblock%}
