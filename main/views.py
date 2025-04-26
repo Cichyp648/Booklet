@@ -525,6 +525,8 @@ def about(request):
     return render(request, 'main/about.html')
 
 
-
 def aboutproject(request):
     return render(request, 'main/aboutproject.html')
+
+def contact(request):
+    return render(request, 'main/contact.html')
