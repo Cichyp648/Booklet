@@ -22,7 +22,7 @@ aside .logo {
     top: -5px;
 }
 
-aside h3 {*/
+aside h3 {
     margin-top: 50px;
     font-size: 28px;
 }
@@ -98,6 +98,7 @@ main .features p {
     text-align: center; /* wyśrodkowuje podpis */
     font-style: italic;
   }
+
   .image-container {
     display: inline-block; /* pozwala na traktowanie figure jak elementu blokowego */
     border: 2px solid #e6e6e6; /* ramka wokół zdjęcia i podpisu */
