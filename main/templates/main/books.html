@@ -16,14 +16,14 @@
             </tr>
         </thead>
         <tbody>
-        {% for title in books %}
+        {% for book in books %}
             <tr>
                 {#Ze znakiem | można dodawać filtry do wyświetlanych w szablonie danych. Np.: variable|lower #}
-                <td>{{ books.title }}</td>
-                <td>{{ books.author }}</td>
-                <td>{{ books.genre }}</td>
-                <td>{{ books.year }}</td>
-                <td>{{ books.link }}</td>
+                <td>{{ book.title }}</td>
+                <td>{{ book.author }}</td>
+                <td>{{ book.genre }}</td>
+                <td>{{ book.year }}</td>
+                <td>{{ book.link }}</td>
             </tr>
         {% endfor %}
         </tbody>
