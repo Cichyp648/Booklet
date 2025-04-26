@@ -1,9 +1,67 @@
 {% extends 'main/layout/layout.html' %}
 
-{% block title%}Books{% endblock %}
+{% block title%}Movies{% endblock %}
 
 {% block content%}
-
-    <h1>Movies</h1>
-    {% include 'main/wipInfo.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Popular Movies</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid #ddd;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        .year {
+            color: #888;
+            font-size: 0.9em;
+        }
+        .genre {
+            font-style: italic;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Popular Movies</h1>
+        <ul>
+            {% for movie in movies %}
+            <li>
+                <strong>{{ movie.title }}</strong> 
+                <span class="year">({{ movie.release_year }})</span> – 
+                <span class="genre">{{ movie.genre }}</span><br>
+                {{ movie.description }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
 {% endblock %}
