@@ -1,6 +1,6 @@
 # Plik do zarządzania ścieżkami w aplikacji. Zawiera listę ścieżek powiązanych z widokami.
 
-from django.urls import path
+from django.urls import path, include
 from . import views 
 
 urlpatterns = [
@@ -10,4 +10,5 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('aboutproject/', views.aboutproject, name='project'),
     path('contact/', views.contact, name='contact'),
+    path('forum/', include('forum.urls'))
 ]

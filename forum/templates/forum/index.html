@@ -1,10 +1,32 @@
 {% extends 'main/layout/layout.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
 
-{% block title%}Forum{% endblock %}
+{% block title %}Forum{% endblock %}
 
-{% block content%}
+{% block content %}
     <h1>Forum</h1>
+    <!--Dodawanie postów-->
+    <div class="card mb-4 p-4 shadow">
+        <h5 class="mb-3">Dodaj nowy post</h5>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary mt-2">Dodaj</button>
+        </form>
+    </div>
+    <!--Lista postów-->
     <div class="d-flex flex-column gap-4">
-
+        {% if posts %}
+            {% for post in posts %}
+                <div class="card p-3 shadow-sm">
+                    <h5>{{ post.title }}</h5>
+                    <p>{{ post.content|linebreaksbr }}</p>
+                    <small class="text-muted">Dodano: {{ post.created_at|date:"d.m.Y H:i" }}</small>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>Brak postów na forum.</p>
+        {% endif %}
     </div>
 {% endblock %}
