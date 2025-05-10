@@ -104,7 +104,7 @@ main .features p {
     border: 2px solid #e6e6e6; /* ramka wokół zdjęcia i podpisu */
     padding: 10px; /* odstęp między ramką a zawartością */
     border-radius: 10px; /* opcjonalnie: zaokrąglenie narożników ramki */
-    max-width: 40%; /* zapewnia, że kontener nie wykracza poza dostępny obszar */
+    max-width: 50%; /* zapewnia, że kontener nie wykracza poza dostępny obszar */
     background-color: #e6e6e6; /* lekko szare tło */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     transition: box-shadow 0.3s ease;

@@ -9,36 +9,37 @@ def get_links():
         'href': '/',
         'icon': 'fa-house',
     }, {
+        'name': 'News',
+        'href': '/news/',
+        'icon': 'fa-newspaper',
+    }, {
         'name': 'Books',
         'href': '/books',
         'icon': 'fa-book',
     }, {
         'name': 'Movies',
         'href': '/movies',
-        'icon': 'fa-clapperboard',
-    }, {
-        'name': 'Contact',
-        'href': '/contact',
-        'icon': 'fa-paper-plane',
-    }, {
-        'name': 'About',
-        'href': '/about',
-        'icon': 'fa-address-card',
-    },{
-        'name': 'News',
-        'href': '/news/',
-        'icon': 'fa-newspaper',
-    },{
-        'name': 'Add news',
-        'href': '/news/create',
-        'icon': 'fa-plus',
+        'icon': 'fa-video-camera',
     },{
         'name': 'Forum',
         'href': '/forum',
-        'icon': 'fa-comment', #look for your icon here https://fontawesome.com/search?ic=free
+        'icon': 'fa-comments', #look for your icon here https://fontawesome.com/search?ic=free
     }, {
-        'name': 'About project',# nazwa wyświetlana na stronie
+        'name': 'About Us',
+        'href': '/about',
+        'icon': 'fa-address-card',
+    }, {
+        'name': 'About our project',# nazwa wyświetlana na stronie
         'href': '/aboutproject',
-        'icon': 'fa-diagram-project', 
-    }]
+        'icon': 'fa-info-circle', 
+    }, {
+        'name': 'Contact Us',
+        'href': '/contact',
+        'icon': 'fa-paper-plane',
+    },  {
+        'name': 'Admin panel',
+        'href': '/news/create',
+        'icon': 'fa-user',
+    }
+    ]
     

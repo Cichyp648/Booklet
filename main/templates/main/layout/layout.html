@@ -20,12 +20,10 @@
 <body>
 <div id="main-container">
     {% include 'main/layout/sidebar.html' %}
-    <main class="py-5">
-        <div id="content-container" style="min-width: 997px">
-            <!-- Blok zawierający zawartość, definiowaną przez wyświetlany widok-->
-            {% block content %}
-            {% endblock%}
-        </div>
+    <main id="content-container" style="min-width: 997px">
+        <!-- Blok zawierający zawartość, definiowaną przez wyświetlany widok-->
+        {% block content %}
+        {% endblock%}
     </main>
 </div>
     
