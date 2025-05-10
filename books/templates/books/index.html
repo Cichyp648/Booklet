@@ -1,0 +1,49 @@
+{% extends 'main/layout/layout.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+{% block title %}Books{% endblock %}
+
+{% block content %}
+    <h1>Books</h1>
+    <!--Dodawanie postów-->
+    <div class="card mb-4 p-2 shadow addpost-button">
+        <h5 class="mb-3" onclick="document.getElementById('overlay').style.display='flex'" style="margin: auto;"><i class="fa fa-plus-circle" aria-hidden="true"></i>Add a new book</h5>
+        
+        <div id="overlay">
+            <form method="POST" id="overlay-content">
+            <div class="close-btn" onclick="document.getElementById('overlay').style.display='none'"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary mt-2">Submit</button>
+            </form>
+        </div>
+        
+    </div>
+
+    {% if books %}
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Year of publication</th>
+                    <th scope="col">Genre</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for book in books %}
+                    <tr>
+                        <td>{{ book.title }}</td>
+                        <td>{{ book.author }}</td>
+                        <td>{{ book.year }}</td>
+                        <td>{{ book.genre }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No books available.</p>
+    {% endif %}
+{% endblock %}
+

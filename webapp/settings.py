@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'news',
     'forum',
     'movies',
+    'books',
 ]
 
 MIDDLEWARE = [ # now default, used for verification/modification processing data from requests

@@ -7,7 +7,7 @@ class MovieForm(forms.ModelForm):
         fields = ['title', 'director', 'release_year', 'genre']
         widgets = {
     'title': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Title'}),
-    'director': forms.Textarea(attrs={'class': 'form-control', 'placeholder': 'Director', 'rows': 3}),
+    'director': forms.Textarea(attrs={'class': 'form-control', 'placeholder': 'Director', 'rows': 1}),
     'release_year': forms.NumberInput(attrs={'class': 'form-control', 'placeholder': 'Year of release'}),
     'genre': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Movie genre'}),
 }
