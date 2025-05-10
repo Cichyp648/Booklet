@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}Logowanie{% endblock %}
+{% block content %}
+<div class="container mt-5">
+    <h2>Zaloguj się</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Zaloguj</button>
+    </form>
+</div>
+{% endblock %}
