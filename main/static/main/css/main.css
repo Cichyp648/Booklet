@@ -74,6 +74,7 @@ main .features p {
   figure {
     margin: 0;
     text-align: center;
+    width: 40%;
   }
   
   figure img {
@@ -86,7 +87,7 @@ main .features p {
   }
   
   figure img:hover {
-    transform: scale(1.05); /* 👈 delikatne powiększenie o 5% */
+    transform: scale(1.05); /*  delikatne powiększenie o 5% */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
 
@@ -100,7 +101,9 @@ main .features p {
   }
 
   .image-container {
-    display: inline-block; /* pozwala na traktowanie figure jak elementu blokowego */
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* pozwala na traktowanie figure jak elementu blokowego */
     border: 2px solid #e6e6e6; /* ramka wokół zdjęcia i podpisu */
     padding: 10px; /* odstęp między ramką a zawartością */
     border-radius: 10px; /* opcjonalnie: zaokrąglenie narożników ramki */
@@ -108,6 +111,11 @@ main .features p {
     background-color: #e6e6e6; /* lekko szare tło */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     transition: box-shadow 0.3s ease;
+  }
+
+  .image-container img{
+    margin-left: auto;
+    margin-right: auto;
   }
   
   figure a {
