@@ -8,14 +8,14 @@
     <h1>Forum</h1>
     <!--Dodawanie postów-->
     <div class="card mb-4 p-2 shadow addpost-button">
-        <h5 class="mb-3" onclick="document.getElementById('overlay').style.display='flex'" style="margin: auto;"><i class="fa fa-plus-circle" aria-hidden="true"></i>Dodaj nowy post</h5>
+        <h5 class="mb-3" onclick="document.getElementById('overlay').style.display='flex'" style="margin: auto;"><i class="fa fa-plus-circle" aria-hidden="true"></i>Add a new post</h5>
         
         <div id="overlay">
             <form method="POST" id="overlay-content">
             <div class="close-btn" onclick="document.getElementById('overlay').style.display='none'"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
                 {% csrf_token %}
                 {{ form.as_p }}
-                <button type="submit" class="btn btn-primary mt-2">Dodaj</button>
+                <button type="submit" class="btn btn-primary mt-2">Submit</button>
             </form>
         </div>
         

@@ -1,0 +1,402 @@
+[
+  {
+    "model": "movies.movie",
+    "pk": 1,
+    "fields": {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "director": "Peter Jackson",
+      "genre": "Fantasy",
+      "release_year": 2001
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2,
+    "fields": {
+      "title": "The Lord of the Rings: The Two Towers",
+      "director": "Peter Jackson",
+      "genre": "Fantasy",
+      "release_year": 2002
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 3,
+    "fields": {
+      "title": "The Lord of the Rings: The Return of the King",
+      "director": "Peter Jackson",
+      "genre": "Fantasy",
+      "release_year": 2003
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 4,
+    "fields": {
+      "title": "The Hobbit: An Unexpected Journey",
+      "director": "Peter Jackson",
+      "genre": "Fantasy",
+      "release_year": 2012
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 5,
+    "fields": {
+      "title": "The Hobbit: The Desolation of Smaug",
+      "director": "Peter Jackson",
+      "genre": "Fantasy",
+      "release_year": 2013
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 6,
+    "fields": {
+      "title": "The Hobbit: The Battle of the Five Armies",
+      "director": "Peter Jackson",
+      "genre": "Fantasy",
+      "release_year": 2014
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 7,
+    "fields": {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "director": "Chris Columbus",
+      "genre": "Fantasy",
+      "release_year": 2001
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 8,
+    "fields": {
+      "title": "Harry Potter and the Chamber of Secrets",
+      "director": "Chris Columbus",
+      "genre": "Fantasy",
+      "release_year": 2002
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 9,
+    "fields": {
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "director": "Alfonso Cuarón",
+      "genre": "Fantasy",
+      "release_year": 2004
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 10,
+    "fields": {
+      "title": "Harry Potter and the Goblet of Fire",
+      "director": "Mike Newell",
+      "genre": "Fantasy",
+      "release_year": 2005
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 11,
+    "fields": {
+      "title": "Harry Potter and the Order of the Phoenix",
+      "director": "David Yates",
+      "genre": "Fantasy",
+      "release_year": 2007
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 12,
+    "fields": {
+      "title": "Harry Potter and the Half-Blood Prince",
+      "director": "David Yates",
+      "genre": "Fantasy",
+      "release_year": 2009
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 13,
+    "fields": {
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "director": "David Yates",
+      "genre": "Fantasy",
+      "release_year": 2010
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 14,
+    "fields": {
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "director": "David Yates",
+      "genre": "Fantasy",
+      "release_year": 2011
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 15,
+    "fields": {
+      "title": "Star Wars: Episode IV - A New Hope",
+      "director": "George Lucas",
+      "genre": "Science Fiction",
+      "release_year": 1977
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 16,
+    "fields": {
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "director": "Irvin Kershner",
+      "genre": "Science Fiction",
+      "release_year": 1980
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 17,
+    "fields": {
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "director": "Richard Marquand",
+      "genre": "Science Fiction",
+      "release_year": 1983
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 18,
+    "fields": {
+      "title": "Star Wars: Episode I - The Phantom Menace",
+      "director": "George Lucas",
+      "genre": "Science Fiction",
+      "release_year": 1999
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 19,
+    "fields": {
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "director": "George Lucas",
+      "genre": "Science Fiction",
+      "release_year": 2002
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 20,
+    "fields": {
+      "title": "Star Wars: Episode III - Revenge of the Sith",
+      "director": "George Lucas",
+      "genre": "Science Fiction",
+      "release_year": 2005
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 21,
+    "fields": {
+      "title": "Inception",
+      "director": "Christopher Nolan",
+      "genre": "Science Fiction",
+      "release_year": 2010
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 22,
+    "fields": {
+      "title": "Interstellar",
+      "director": "Christopher Nolan",
+      "genre": "Science Fiction",
+      "release_year": 2014
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 23,
+    "fields": {
+      "title": "The Dark Knight",
+      "director": "Christopher Nolan",
+      "genre": "Superhero",
+      "release_year": 2008
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 24,
+    "fields": {
+      "title": "The Dark Knight Rises",
+      "director": "Christopher Nolan",
+      "genre": "Superhero",
+      "release_year": 2012
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 25,
+    "fields": {
+      "title": "Batman Begins",
+      "director": "Christopher Nolan",
+      "genre": "Superhero",
+      "release_year": 2005
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 26,
+    "fields": {
+      "title": "The Matrix",
+      "director": "The Wachowskis",
+      "genre": "Science Fiction",
+      "release_year": 1999
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 27,
+    "fields": {
+      "title": "The Matrix Reloaded",
+      "director": "The Wachowskis",
+      "genre": "Science Fiction",
+      "release_year": 2003
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 28,
+    "fields": {
+      "title": "The Matrix Revolutions",
+      "director": "The Wachowskis",
+      "genre": "Science Fiction",
+      "release_year": 2003
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 29,
+    "fields": {
+      "title": "Dune: Part One",
+      "director": "Denis Villeneuve",
+      "genre": "Science Fiction",
+      "release_year": 2021
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 30,
+    "fields": {
+      "title": "Dune: Part Two",
+      "director": "Denis Villeneuve",
+      "genre": "Science Fiction",
+      "release_year": 2024
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 31,
+    "fields": {
+      "title": "Avatar",
+      "director": "James Cameron",
+      "genre": "Science Fiction",
+      "release_year": 2009
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 32,
+    "fields": {
+      "title": "Avatar: The Way of Water",
+      "director": "James Cameron",
+      "genre": "Science Fiction",
+      "release_year": 2022
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 33,
+    "fields": {
+      "title": "Jurassic Park",
+      "director": "Steven Spielberg",
+      "genre": "Science Fiction",
+      "release_year": 1993
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 34,
+    "fields": {
+      "title": "The Lost World: Jurassic Park",
+      "director": "Steven Spielberg",
+      "genre": "Science Fiction",
+      "release_year": 1997
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 35,
+    "fields": {
+      "title": "Jurassic World",
+      "director": "Colin Trevorrow",
+      "genre": "Science Fiction",
+      "release_year": 2015
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 36,
+    "fields": {
+      "title": "Back to the Future",
+      "director": "Robert Zemeckis",
+      "genre": "Science Fiction",
+      "release_year": 1985
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 37,
+    "fields": {
+      "title": "Back to the Future Part II",
+      "director": "Robert Zemeckis",
+      "genre": "Science Fiction",
+      "release_year": 1989
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 38,
+    "fields": {
+      "title": "Back to the Future Part III",
+      "director": "Robert Zemeckis",
+      "genre": "Science Fiction",
+      "release_year": 1990
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 39,
+    "fields": {
+      "title": "Blade Runner",
+      "director": "Ridley Scott",
+      "genre": "Science Fiction",
+      "release_year": 1982
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 40,
+    "fields": {
+      "title": "Blade Runner 2049",
+      "director": "Denis Villeneuve",
+      "genre": "Science Fiction",
+      "release_year": 2017
+    }
+  }
+]
