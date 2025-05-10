@@ -11,6 +11,12 @@
     flex: 1;
 }
 
+#sidebar-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 #content-container {
     min-height: 100vh;
     margin-left: 20px;
