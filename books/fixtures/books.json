@@ -6,7 +6,7 @@
       "title": "The Lord of the Rings: The Fellowship of the Ring",
       "director": "Peter Jackson",
       "genre": "Fantasy",
-      "release_year": 2001
+      "year": 2001
     }
   },
   {
@@ -16,7 +16,7 @@
       "title": "The Lord of the Rings: The Two Towers",
       "director": "Peter Jackson",
       "genre": "Fantasy",
-      "release_year": 2002
+      "year": 2002
     }
   },
   {
@@ -26,7 +26,7 @@
       "title": "The Lord of the Rings: The Return of the King",
       "director": "Peter Jackson",
       "genre": "Fantasy",
-      "release_year": 2003
+      "year": 2003
     }
   },
   {
@@ -36,7 +36,7 @@
       "title": "The Hobbit: An Unexpected Journey",
       "director": "Peter Jackson",
       "genre": "Fantasy",
-      "release_year": 2012
+      "year": 2012
     }
   },
   {
@@ -46,7 +46,7 @@
       "title": "The Hobbit: The Desolation of Smaug",
       "director": "Peter Jackson",
       "genre": "Fantasy",
-      "release_year": 2013
+      "year": 2013
     }
   },
   {
@@ -56,7 +56,7 @@
       "title": "The Hobbit: The Battle of the Five Armies",
       "director": "Peter Jackson",
       "genre": "Fantasy",
-      "release_year": 2014
+      "year": 2014
     }
   },
   {
@@ -66,7 +66,7 @@
       "title": "Harry Potter and the Philosopher's Stone",
       "director": "Chris Columbus",
       "genre": "Fantasy",
-      "release_year": 2001
+      "year": 2001
     }
   },
   {
@@ -76,7 +76,7 @@
       "title": "Harry Potter and the Chamber of Secrets",
       "director": "Chris Columbus",
       "genre": "Fantasy",
-      "release_year": 2002
+      "year": 2002
     }
   },
   {
@@ -86,7 +86,7 @@
       "title": "Harry Potter and the Prisoner of Azkaban",
       "director": "Alfonso Cuarón",
       "genre": "Fantasy",
-      "release_year": 2004
+      "year": 2004
     }
   },
   {
@@ -96,7 +96,7 @@
       "title": "Harry Potter and the Goblet of Fire",
       "director": "Mike Newell",
       "genre": "Fantasy",
-      "release_year": 2005
+      "year": 2005
     }
   },
   {
@@ -106,7 +106,7 @@
       "title": "Harry Potter and the Order of the Phoenix",
       "director": "David Yates",
       "genre": "Fantasy",
-      "release_year": 2007
+      "year": 2007
     }
   },
   {
@@ -116,7 +116,7 @@
       "title": "Harry Potter and the Half-Blood Prince",
       "director": "David Yates",
       "genre": "Fantasy",
-      "release_year": 2009
+      "year": 2009
     }
   },
   {
@@ -126,7 +126,7 @@
       "title": "Harry Potter and the Deathly Hallows: Part 1",
       "director": "David Yates",
       "genre": "Fantasy",
-      "release_year": 2010
+      "year": 2010
     }
   },
   {
@@ -136,7 +136,7 @@
       "title": "Harry Potter and the Deathly Hallows: Part 2",
       "director": "David Yates",
       "genre": "Fantasy",
-      "release_year": 2011
+      "year": 2011
     }
   },
   {
@@ -146,7 +146,7 @@
       "title": "Star Wars: Episode IV - A New Hope",
       "director": "George Lucas",
       "genre": "Science Fiction",
-      "release_year": 1977
+      "year": 1977
     }
   },
   {
@@ -156,7 +156,7 @@
       "title": "Star Wars: Episode V - The Empire Strikes Back",
       "director": "Irvin Kershner",
       "genre": "Science Fiction",
-      "release_year": 1980
+      "year": 1980
     }
   },
   {
@@ -166,7 +166,7 @@
       "title": "Star Wars: Episode VI - Return of the Jedi",
       "director": "Richard Marquand",
       "genre": "Science Fiction",
-      "release_year": 1983
+      "year": 1983
     }
   },
   {
@@ -176,7 +176,7 @@
       "title": "Star Wars: Episode I - The Phantom Menace",
       "director": "George Lucas",
       "genre": "Science Fiction",
-      "release_year": 1999
+      "year": 1999
     }
   },
   {
@@ -186,7 +186,7 @@
       "title": "Star Wars: Episode II - Attack of the Clones",
       "director": "George Lucas",
       "genre": "Science Fiction",
-      "release_year": 2002
+      "year": 2002
     }
   },
   {
@@ -196,7 +196,7 @@
       "title": "Star Wars: Episode III - Revenge of the Sith",
       "director": "George Lucas",
       "genre": "Science Fiction",
-      "release_year": 2005
+      "year": 2005
     }
   },
   {
@@ -206,7 +206,7 @@
       "title": "Inception",
       "director": "Christopher Nolan",
       "genre": "Science Fiction",
-      "release_year": 2010
+      "year": 2010
     }
   },
   {
@@ -216,7 +216,7 @@
       "title": "Interstellar",
       "director": "Christopher Nolan",
       "genre": "Science Fiction",
-      "release_year": 2014
+      "year": 2014
     }
   },
   {
@@ -226,7 +226,7 @@
       "title": "The Dark Knight",
       "director": "Christopher Nolan",
       "genre": "Superhero",
-      "release_year": 2008
+      "year": 2008
     }
   },
   {
@@ -236,7 +236,7 @@
       "title": "The Dark Knight Rises",
       "director": "Christopher Nolan",
       "genre": "Superhero",
-      "release_year": 2012
+      "year": 2012
     }
   },
   {
@@ -246,7 +246,7 @@
       "title": "Batman Begins",
       "director": "Christopher Nolan",
       "genre": "Superhero",
-      "release_year": 2005
+      "year": 2005
     }
   },
   {
@@ -256,7 +256,7 @@
       "title": "The Matrix",
       "director": "The Wachowskis",
       "genre": "Science Fiction",
-      "release_year": 1999
+      "year": 1999
     }
   },
   {
@@ -266,7 +266,7 @@
       "title": "The Matrix Reloaded",
       "director": "The Wachowskis",
       "genre": "Science Fiction",
-      "release_year": 2003
+      "year": 2003
     }
   },
   {
@@ -276,7 +276,7 @@
       "title": "The Matrix Revolutions",
       "director": "The Wachowskis",
       "genre": "Science Fiction",
-      "release_year": 2003
+      "year": 2003
     }
   },
   {
@@ -286,7 +286,7 @@
       "title": "Dune: Part One",
       "director": "Denis Villeneuve",
       "genre": "Science Fiction",
-      "release_year": 2021
+      "year": 2021
     }
   },
   {
@@ -296,7 +296,7 @@
       "title": "Dune: Part Two",
       "director": "Denis Villeneuve",
       "genre": "Science Fiction",
-      "release_year": 2024
+      "year": 2024
     }
   },
   {
@@ -306,7 +306,7 @@
       "title": "Avatar",
       "director": "James Cameron",
       "genre": "Science Fiction",
-      "release_year": 2009
+      "year": 2009
     }
   },
   {
@@ -316,7 +316,7 @@
       "title": "Avatar: The Way of Water",
       "director": "James Cameron",
       "genre": "Science Fiction",
-      "release_year": 2022
+      "year": 2022
     }
   },
   {
@@ -326,7 +326,7 @@
       "title": "Jurassic Park",
       "director": "Steven Spielberg",
       "genre": "Science Fiction",
-      "release_year": 1993
+      "year": 1993
     }
   },
   {
@@ -336,7 +336,7 @@
       "title": "The Lost World: Jurassic Park",
       "director": "Steven Spielberg",
       "genre": "Science Fiction",
-      "release_year": 1997
+      "year": 1997
     }
   },
   {
@@ -346,7 +346,7 @@
       "title": "Jurassic World",
       "director": "Colin Trevorrow",
       "genre": "Science Fiction",
-      "release_year": 2015
+      "year": 2015
     }
   },
   {
@@ -356,7 +356,7 @@
       "title": "Back to the Future",
       "director": "Robert Zemeckis",
       "genre": "Science Fiction",
-      "release_year": 1985
+      "year": 1985
     }
   },
   {
@@ -366,7 +366,7 @@
       "title": "Back to the Future Part II",
       "director": "Robert Zemeckis",
       "genre": "Science Fiction",
-      "release_year": 1989
+      "year": 1989
     }
   },
   {
@@ -376,7 +376,7 @@
       "title": "Back to the Future Part III",
       "director": "Robert Zemeckis",
       "genre": "Science Fiction",
-      "release_year": 1990
+      "year": 1990
     }
   },
   {
@@ -386,7 +386,7 @@
       "title": "Blade Runner",
       "director": "Ridley Scott",
       "genre": "Science Fiction",
-      "release_year": 1982
+      "year": 1982
     }
   },
   {
@@ -396,7 +396,7 @@
       "title": "Blade Runner 2049",
       "director": "Denis Villeneuve",
       "genre": "Science Fiction",
-      "release_year": 2017
+      "year": 2017
     }
   }
 ]

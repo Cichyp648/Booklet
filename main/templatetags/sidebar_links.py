@@ -38,7 +38,7 @@ def get_links():
         'icon': 'fa-paper-plane',
     },  {
         'name': 'Admin panel',
-        'href': '/news/create',
+        'href': '/admin',
         'icon': 'fa-user',
     }
     ]
