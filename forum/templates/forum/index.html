@@ -4,7 +4,27 @@
 
 {% block title %}Forum{% endblock %}
 
+
 {% block content %}
+<style>
+  .delete-btn {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #888;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .delete-btn:hover {
+    color: red;
+  }
+</style>
     <h1>Forum</h1>
     <!--Dodawanie postów-->
     <div class="card mb-4 p-2 shadow addpost-button">
@@ -24,10 +44,11 @@
     <div class="d-flex flex-column gap-4">
         {% if posts %}
             {% for post in posts %}
-                <div class="card p-3 shadow-sm">
+                <div class="card p-3 shadow-sm position-relative mb-3">
                     <h5>{{ post.title }}</h5>
                     <p>{{ post.content|linebreaksbr }}</p>
                     <small class="text-muted">Dodano: {{ post.created_at|date:"d.m.Y H:i" }}</small>
+                    <a href="{% url 'forum:delete_post' post.id %}" class="delete-btn" title="Usuń post">×</a>
                 </div>
             {% endfor %}
         {% else %}

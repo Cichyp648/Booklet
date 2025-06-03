@@ -153,3 +153,20 @@ main .features p {
   width: 150pt;
   height: 45  px;
 }
+
+.delete-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: #888;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: red;
+}
