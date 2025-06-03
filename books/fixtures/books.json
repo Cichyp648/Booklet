@@ -1,402 +1,312 @@
 [
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 1,
     "fields": {
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "director": "Peter Jackson",
-      "genre": "Fantasy",
-      "release_year": 2001
+      "title": "The Hobbit, or There and Back Again",
+      "author": "J. R. R. Tolkien",
+      "genre": "High fantasy",
+      "year": 1937
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 2,
     "fields": {
-      "title": "The Lord of the Rings: The Two Towers",
-      "director": "Peter Jackson",
-      "genre": "Fantasy",
-      "release_year": 2002
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "author": "J. R. R. Tolkien",
+      "genre": "High fantasy",
+      "year": 1954
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 3,
     "fields": {
-      "title": "The Lord of the Rings: The Return of the King",
-      "director": "Peter Jackson",
-      "genre": "Fantasy",
-      "release_year": 2003
+      "title": "The Lord of the Rings: The Two Towers",
+      "author": "J. R. R. Tolkien",
+      "genre": "High fantasy",
+      "year": 1954
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 4,
     "fields": {
-      "title": "The Hobbit: An Unexpected Journey",
-      "director": "Peter Jackson",
-      "genre": "Fantasy",
-      "release_year": 2012
+      "title": "The Lord of the Rings: The Return of the King",
+      "author": "J. R. R. Tolkien",
+      "genre": "High fantasy",
+      "year": 1955
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 5,
     "fields": {
-      "title": "The Hobbit: The Desolation of Smaug",
-      "director": "Peter Jackson",
-      "genre": "Fantasy",
-      "release_year": 2013
+      "title": "The Silmarillion",
+      "author": "J. R. R. Tolkien",
+      "genre": "Mythopoeia",
+      "year": 1977
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 6,
     "fields": {
-      "title": "The Hobbit: The Battle of the Five Armies",
-      "director": "Peter Jackson",
-      "genre": "Fantasy",
-      "release_year": 2014
+      "title": "A Game of Thrones",
+      "author": "George R. R. Martin",
+      "genre": "Epic fantasy",
+      "year": 1996
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 7,
     "fields": {
-      "title": "Harry Potter and the Philosopher's Stone",
-      "director": "Chris Columbus",
-      "genre": "Fantasy",
-      "release_year": 2001
+      "title": "A Clash of Kings",
+      "author": "George R. R. Martin",
+      "genre": "Epic fantasy",
+      "year": 1998
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 8,
     "fields": {
-      "title": "Harry Potter and the Chamber of Secrets",
-      "director": "Chris Columbus",
-      "genre": "Fantasy",
-      "release_year": 2002
+      "title": "A Storm of Swords",
+      "author": "George R. R. Martin",
+      "genre": "Epic fantasy",
+      "year": 2000
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 9,
     "fields": {
-      "title": "Harry Potter and the Prisoner of Azkaban",
-      "director": "Alfonso Cuarón",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J. K. Rowling",
       "genre": "Fantasy",
-      "release_year": 2004
+      "year": 1997
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 10,
     "fields": {
-      "title": "Harry Potter and the Goblet of Fire",
-      "director": "Mike Newell",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "author": "J. K. Rowling",
       "genre": "Fantasy",
-      "release_year": 2005
+      "year": 1998
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 11,
     "fields": {
-      "title": "Harry Potter and the Order of the Phoenix",
-      "director": "David Yates",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "author": "J. K. Rowling",
       "genre": "Fantasy",
-      "release_year": 2007
+      "year": 1999
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 12,
     "fields": {
-      "title": "Harry Potter and the Half-Blood Prince",
-      "director": "David Yates",
-      "genre": "Fantasy",
-      "release_year": 2009
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Science Fiction",
+      "year": 1965
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 13,
     "fields": {
-      "title": "Harry Potter and the Deathly Hallows: Part 1",
-      "director": "David Yates",
-      "genre": "Fantasy",
-      "release_year": 2010
+      "title": "Dune Messiah",
+      "author": "Frank Herbert",
+      "genre": "Science Fiction",
+      "year": 1969
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 14,
     "fields": {
-      "title": "Harry Potter and the Deathly Hallows: Part 2",
-      "director": "David Yates",
-      "genre": "Fantasy",
-      "release_year": 2011
+      "title": "Foundation",
+      "author": "Isaac Asimov",
+      "genre": "Science Fiction",
+      "year": 1951
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 15,
     "fields": {
-      "title": "Star Wars: Episode IV - A New Hope",
-      "director": "George Lucas",
+      "title": "Foundation and Empire",
+      "author": "Isaac Asimov",
       "genre": "Science Fiction",
-      "release_year": 1977
+      "year": 1952
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 16,
     "fields": {
-      "title": "Star Wars: Episode V - The Empire Strikes Back",
-      "director": "Irvin Kershner",
+      "title": "Second Foundation",
+      "author": "Isaac Asimov",
       "genre": "Science Fiction",
-      "release_year": 1980
+      "year": 1953
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 17,
     "fields": {
-      "title": "Star Wars: Episode VI - Return of the Jedi",
-      "director": "Richard Marquand",
-      "genre": "Science Fiction",
-      "release_year": 1983
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "genre": "Fantasy",
+      "year": 2007
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 18,
     "fields": {
-      "title": "Star Wars: Episode I - The Phantom Menace",
-      "director": "George Lucas",
-      "genre": "Science Fiction",
-      "release_year": 1999
+      "title": "The Wise Man's Fear",
+      "author": "Patrick Rothfuss",
+      "genre": "Fantasy",
+      "year": 2011
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 19,
     "fields": {
-      "title": "Star Wars: Episode II - Attack of the Clones",
-      "director": "George Lucas",
-      "genre": "Science Fiction",
-      "release_year": 2002
+      "title": "Mistborn: The Final Empire",
+      "author": "Brandon Sanderson",
+      "genre": "Fantasy",
+      "year": 2006
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 20,
     "fields": {
-      "title": "Star Wars: Episode III - Revenge of the Sith",
-      "director": "George Lucas",
-      "genre": "Science Fiction",
-      "release_year": 2005
+      "title": "Mistborn: The Well of Ascension",
+      "author": "Brandon Sanderson",
+      "genre": "Fantasy",
+      "year": 2007
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 21,
     "fields": {
-      "title": "Inception",
-      "director": "Christopher Nolan",
-      "genre": "Science Fiction",
-      "release_year": 2010
+      "title": "Mistborn: The Hero of Ages",
+      "author": "Brandon Sanderson",
+      "genre": "Fantasy",
+      "year": 2008
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 22,
     "fields": {
-      "title": "Interstellar",
-      "director": "Christopher Nolan",
-      "genre": "Science Fiction",
-      "release_year": 2014
+      "title": "The Way of Kings",
+      "author": "Brandon Sanderson",
+      "genre": "Epic Fantasy",
+      "year": 2010
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 23,
     "fields": {
-      "title": "The Dark Knight",
-      "director": "Christopher Nolan",
-      "genre": "Superhero",
-      "release_year": 2008
+      "title": "Words of Radiance",
+      "author": "Brandon Sanderson",
+      "genre": "Epic Fantasy",
+      "year": 2014
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 24,
     "fields": {
-      "title": "The Dark Knight Rises",
-      "director": "Christopher Nolan",
-      "genre": "Superhero",
-      "release_year": 2012
+      "title": "Warbreaker",
+      "author": "Brandon Sanderson",
+      "genre": "Fantasy",
+      "year": 2009
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 25,
     "fields": {
-      "title": "Batman Begins",
-      "director": "Christopher Nolan",
-      "genre": "Superhero",
-      "release_year": 2005
+      "title": "The Lion, the Witch and the Wardrobe",
+      "author": "C. S. Lewis",
+      "genre": "Fantasy",
+      "year": 1950
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 26,
     "fields": {
-      "title": "The Matrix",
-      "director": "The Wachowskis",
-      "genre": "Science Fiction",
-      "release_year": 1999
+      "title": "Prince Caspian",
+      "author": "C. S. Lewis",
+      "genre": "Fantasy",
+      "year": 1951
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 27,
     "fields": {
-      "title": "The Matrix Reloaded",
-      "director": "The Wachowskis",
-      "genre": "Science Fiction",
-      "release_year": 2003
+      "title": "The Voyage of the Dawn Treader",
+      "author": "C. S. Lewis",
+      "genre": "Fantasy",
+      "year": 1952
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 28,
     "fields": {
-      "title": "The Matrix Revolutions",
-      "director": "The Wachowskis",
-      "genre": "Science Fiction",
-      "release_year": 2003
+      "title": "The Catcher in the Rye",
+      "author": "J. D. Salinger",
+      "genre": "Literary Fiction",
+      "year": 1951
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 29,
     "fields": {
-      "title": "Dune: Part One",
-      "director": "Denis Villeneuve",
-      "genre": "Science Fiction",
-      "release_year": 2021
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "year": 1949
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 30,
     "fields": {
-      "title": "Dune: Part Two",
-      "director": "Denis Villeneuve",
-      "genre": "Science Fiction",
-      "release_year": 2024
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "genre": "Political satire",
+      "year": 1945
     }
   },
   {
-    "model": "movies.movie",
+    "model": "books.book",
     "pk": 31,
     "fields": {
-      "title": "Avatar",
-      "director": "James Cameron",
-      "genre": "Science Fiction",
-      "release_year": 2009
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 32,
-    "fields": {
-      "title": "Avatar: The Way of Water",
-      "director": "James Cameron",
-      "genre": "Science Fiction",
-      "release_year": 2022
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 33,
-    "fields": {
-      "title": "Jurassic Park",
-      "director": "Steven Spielberg",
-      "genre": "Science Fiction",
-      "release_year": 1993
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 34,
-    "fields": {
-      "title": "The Lost World: Jurassic Park",
-      "director": "Steven Spielberg",
-      "genre": "Science Fiction",
-      "release_year": 1997
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 35,
-    "fields": {
-      "title": "Jurassic World",
-      "director": "Colin Trevorrow",
-      "genre": "Science Fiction",
-      "release_year": 2015
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 36,
-    "fields": {
-      "title": "Back to the Future",
-      "director": "Robert Zemeckis",
-      "genre": "Science Fiction",
-      "release_year": 1985
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 37,
-    "fields": {
-      "title": "Back to the Future Part II",
-      "director": "Robert Zemeckis",
-      "genre": "Science Fiction",
-      "release_year": 1989
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 38,
-    "fields": {
-      "title": "Back to the Future Part III",
-      "director": "Robert Zemeckis",
-      "genre": "Science Fiction",
-      "release_year": 1990
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 39,
-    "fields": {
-      "title": "Blade Runner",
-      "director": "Ridley Scott",
-      "genre": "Science Fiction",
-      "release_year": 1982
-    }
-  },
-  {
-    "model": "movies.movie",
-    "pk": 40,
-    "fields": {
-      "title": "Blade Runner 2049",
-      "director": "Denis Villeneuve",
-      "genre": "Science Fiction",
-      "release_year": 2017
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Dystopian",
+      "year": 1932
     }
   }
 ]

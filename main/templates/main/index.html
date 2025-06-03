@@ -6,6 +6,16 @@
     <h1>Welcome to Booklet</h1>
     <h3>The best book and movies recommendations site</h3>
 
-    
-    {% include 'main/wipInfo.html' %}
+    <div style="margin-top: 50px;">
+        {% if random_movie %}
+        <h4>Random Movie Pick</h4>
+        <p>Title: {{ random_movie.title }}</p>
+        <p>Genre: {{ random_movie.genre }}</p>
+        <p>Genre: {{ random_movie.director }}</p>
+        <p>Genre: {{ random_movie.release_year }}</p>
+        {% else %}
+          <p>No movies found in the database.</p>
+        {% endif %}
+    </div>
+
 {% endblock %}
