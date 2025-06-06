@@ -6,11 +6,11 @@ class BookForm(forms.ModelForm):
         model = Book
         fields = ['title', 'author', 'genre', 'year']
         widgets = {
-            'title': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Title'}),
-            'author': forms.Textarea(attrs={'class': 'form-control', 'placeholder': 'Author', 'rows': 1}),
-            'year': forms.NumberInput(attrs={'class': 'form-control', 'placeholder': 'Year of publication'}),
-            'genre': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Genre'}),
-        }
+           'title': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Title'}),
+           'director': forms.Textarea(attrs={'class': 'form-control', 'placeholder': 'Author', 'rows': 1}),
+           'release_year': forms.NumberInput(attrs={'class': 'form-control', 'placeholder': 'Year of publication'}),
+           'genre': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Genre'}),
+}
 
 # Add ReviewForm (if you're using it now)
 class ReviewForm(forms.Form):
