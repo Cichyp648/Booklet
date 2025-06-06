@@ -3,6 +3,8 @@ from . import views # from current folder import the neighbour file views for vi
 
 urlpatterns = [
     path('', views.index),
+    path('', views.index, name='index'),
+    path('create/', views.index, name='index'),
     path('frequent_questions', views.frequent_questions)
 ]
  

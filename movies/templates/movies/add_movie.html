@@ -1,0 +1,14 @@
+<!-- forum/create_post.html -->
+
+{% extends 'main/layout/layout.html' %}
+
+{% block title %}Movies{% endblock %}
+
+{% block content %}
+    <h1>Add a new movie entry</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+{% endblock %}

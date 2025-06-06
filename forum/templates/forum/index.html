@@ -1,10 +1,37 @@
 {% extends 'main/layout/layout.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
 
-{% block title%}Forum{% endblock %}
+{% block title %}Forum{% endblock %}
 
-{% block content%}
+{% block content %}
     <h1>Forum</h1>
+    <!--Dodawanie postów-->
+    <div class="card mb-4 p-2 shadow addpost-button">
+        <h5 class="mb-3" onclick="document.getElementById('overlay').style.display='flex'" style="margin: auto;"><i class="fa fa-plus-circle" aria-hidden="true"></i>Add a new post</h5>
+        
+        <div id="overlay">
+            <form method="POST" id="overlay-content">
+            <div class="close-btn" onclick="document.getElementById('overlay').style.display='none'"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary mt-2">Submit</button>
+            </form>
+        </div>
+        
+    </div>
+    <!--Lista postów-->
     <div class="d-flex flex-column gap-4">
-
+        {% if posts %}
+            {% for post in posts %}
+                <div class="card p-3 shadow-sm">
+                    <h5>{{ post.title }}</h5>
+                    <p>{{ post.content|linebreaksbr }}</p>
+                    <small class="text-muted">Dodano: {{ post.created_at|date:"d.m.Y H:i" }}</small>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>There are no posts on the forum.</p>
+        {% endif %}
     </div>
 {% endblock %}

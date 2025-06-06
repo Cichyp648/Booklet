@@ -1,12 +1,40 @@
 {% extends 'main/layout/layout.html' %}
 
-{% block title%}Homepage{% endblock %}
+{% block title %}Homepage{% endblock %}
 
-{% block content%}
-    <h1>Welcome to Booklet</h1>
-    <h3>The best book and movies recommendations site</h3>
+{% block content %}
+<h1>Welcome to Booklet</h1>
+<h3>The best book and movie recommendations site</h3>
 
-    
-    {% include 'main/wipInfo.html' %}
-    <button class="btn btn-warning">Go to about us page</button>
+<div style="margin-top: 50px;" class="grid">
+
+    {% if random_movie %}
+    <figure class="image-container">
+        <figcaption><strong>🎬 Random Movie Pick</strong></figcaption>
+        <div style="padding: 10px;">
+            <p><strong>Title:</strong> {{ random_movie.title }}</p>
+            <p><strong>Genre:</strong> {{ random_movie.genre }}</p>
+            <p><strong>Director:</strong> {{ random_movie.director }}</p>
+            <p><strong>Year:</strong> {{ random_movie.release_year }}</p>
+        </div>
+    </figure>
+    {% else %}
+    <p>No movies found in the database.</p>
+    {% endif %}
+
+    {% if random_book %}
+    <figure class="image-container">
+        <figcaption><strong>📖 Random Book Pick</strong></figcaption>
+        <div style="padding: 10px;">
+            <p><strong>Title:</strong> {{ random_book.title }}</p>
+            <p><strong>Author:</strong> {{ random_book.author }}</p>
+            <p><strong>Genre:</strong> {{ random_book.genre }}</p>
+            <p><strong>Year:</strong> {{ random_book.year }}</p>
+        </div>
+    </figure>
+    {% else %}
+    <p>No books found in the database.</p>
+    {% endif %}
+
+</div>
 {% endblock %}

@@ -1,0 +1,67 @@
+{% extends 'main/layout/layout.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+{% block title %}Movies{% endblock %}
+
+{% block content %}
+    <h1>Movies</h1>
+    <!--Dodawanie postów-->
+    <div class="card mb-4 p-2 shadow addpost-button">
+        <h5 class="mb-3" onclick="document.getElementById('overlay').style.display='flex'" style="margin: auto;"><i class="fa fa-plus-circle" aria-hidden="true"></i>Add a new movie</h5>
+        
+        <div id="overlay">
+            <form method="POST" id="overlay-content">
+            <div class="close-btn" onclick="document.getElementById('overlay').style.display='none'"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary mt-2">Submit</button>
+            </form>
+        </div>
+        
+    </div>
+
+    {% if movies %}
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Director</th>
+                    <th scope="col">Genre</th>
+                    <th scope="col">Release Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for movie in movies %}
+                    <tr>
+                        <td>{{ movie.title }}</td>
+                        <td>{{ movie.director }}</td>
+                        <td>{{ movie.genre }}</td>
+                        <td>{{ movie.release_year }}</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <strong>Average Review:</strong>
+                            {% if movie.average_rating %}
+                                {{ movie.average_rating }}
+                            {% else %}
+                                No reviews yet
+                            {% endif %}
+                        
+                            <!-- Review form -->
+                            <form method="POST" style="margin-top: 10px;">
+                                {% csrf_token %}
+                                {{ review_form.rating }}
+                                <input type="hidden" name="movie_id" value="{{ movie.id }}">
+                                <button type="submit" class="btn btn-success btn-sm mt-1">Submit Review</button>
+                            </form>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No movies available.</p>
+    {% endif %}
+{% endblock %}
+

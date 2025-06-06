@@ -1,10 +1,14 @@
 {% extends 'main/layout/layout.html' %}
 {% block title%}About us{% endblock %}
+{%load static%}
+
 
 {% block content%}
-    <div class="features">
-        <h1>About us</h1>
-        <p>Lorem ipsum dolor sit amet</p>
-        <button class="btn btn-success">Dangerous button</button>
+    <div class="grid">
+        <figure class = 'image-container'><a href='https://www.facebook.com/profile.php?id=100012897971866&locale=pl_PL' target="_blank"><img src = '\static\main\img\member1.webp' ></a><figcaption>Mariusz - chcę w przyszłości zostać Python Developerem, fascynują mnie gry komputerowe oraz piłka nożna</figcaption></figure>
+        <figure class = 'image-container'><a href ='https://www.facebook.com/dawid.bozek.75?locale=pl_PL' target='_blank'><img src = '\static\main\img\member2.jpg'></a><figcaption>Mariusz - chcę w przyszłości zostać Python Developerem, fascynują mnie gry komputerowe oraz piłka nożna</figcaption></figure>
+        <figure class = 'image-container'><a href = 'https://www.facebook.com/profile.php?id=100055379781127&locale=pl_PL' target='_blank'><img src = '\static\main\img\member3.jpg'></a><figcaption>Mariusz - chcę w przyszłości zostać Python Developerem, fascynują mnie gry komputerowe oraz piłka nożna</figcaption></figure>
+        <figure class = 'image-container'><a href = 'https://www.facebook.com/profile.php?id=100009592781630&locale=pl_PL' target='_blank'><img src = '\static\main\img\member4.jpg'></a><figcaption>Mariusz - chcę w przyszłości zostać Python Developerem, fascynują mnie gry komputerowe oraz piłka nożna</figcaption></figure>
     </div>
+    
 {% endblock %}
