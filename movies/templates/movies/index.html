@@ -39,6 +39,24 @@
                         <td>{{ movie.genre }}</td>
                         <td>{{ movie.release_year }}</td>
                     </tr>
+                    <tr>
+                        <td colspan="4">
+                            <strong>Average Review:</strong>
+                            {% if movie.average_rating %}
+                                {{ movie.average_rating }}
+                            {% else %}
+                                No reviews yet
+                            {% endif %}
+                        
+                            <!-- Review form -->
+                            <form method="POST" style="margin-top: 10px;">
+                                {% csrf_token %}
+                                {{ review_form.rating }}
+                                <input type="hidden" name="movie_id" value="{{ movie.id }}">
+                                <button type="submit" class="btn btn-success btn-sm mt-1">Submit Review</button>
+                            </form>
+                        </td>
+                    </tr>
                 {% endfor %}
             </tbody>
         </table>

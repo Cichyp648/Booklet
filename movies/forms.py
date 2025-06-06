@@ -11,4 +11,9 @@ class MovieForm(forms.ModelForm):
     'release_year': forms.NumberInput(attrs={'class': 'form-control', 'placeholder': 'Year of release'}),
     'genre': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Movie genre'}),
 }
-
+        
+class MovieReviewForm(forms.Form):
+    rating = forms.IntegerField(
+        min_value=1, max_value=5,
+        widget=forms.NumberInput(attrs={'class': 'form-control', 'placeholder': 'Rating 1–5'})
+    )
