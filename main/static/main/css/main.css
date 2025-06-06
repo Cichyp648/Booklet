@@ -153,3 +153,26 @@ main .features p {
   width: 150pt;
   height: 45  px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.image-container {
+  background-color: #f9f9f9;
+  border: 2px solid #e6e6e6;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 350px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+  transform: translateY(-5px);
+}
